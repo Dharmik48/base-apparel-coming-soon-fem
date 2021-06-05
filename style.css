@@ -76,16 +76,35 @@ form input {
   font-size: 1rem;
   border: 1px solid var(--red);
   padding: 1em 1.5em;
-  color: var(--red);
+  color: var(--dark-red);
   border-radius: 50px;
   background: transparent;
   outline: none;
 }
 
+#error-icon,
+#error-text {
+  display: none;
+}
+
+form.invalid #error-icon {
+  display: block;
+  position: absolute;
+  top: 25%;
+  right: 70px;
+}
+
+form.invalid #error-text {
+  display: block;
+  position: absolute;
+  color: var(--soft-red);
+  left: 25px;
+}
+
 form input::placeholder {
   font-size: 1rem;
   font-family: var(--ff);
-  color: currentColor;
+  color: var(--red);
 }
 
 .content {
@@ -138,7 +157,6 @@ form input::placeholder {
   body {
     flex-direction: row;
     justify-content: space-between;
-    overflow: hidden;
   }
   .right {
     display: inline-block;

@@ -38,11 +38,13 @@
           Add your email below to stay up-to-date with announcements and our
           launch deals.
         </p>
-        <form>
-          <input type="text" placeholder="Email Address" />
-          <button class="submit">
+        <form id="form">
+          <input type="text" placeholder="Email Address" id="input" />
+          <button class="submit" id="submit">
             <img src="./images/icon-arrow.svg" alt="submit" />
           </button>
+          <img id="error-icon" src="./images/icon-error.svg" alt="error" />
+          <p id="error-text">Please provide a valid email</p>
         </form>
       </div>
       <img
