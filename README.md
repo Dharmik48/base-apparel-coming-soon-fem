@@ -10,8 +10,6 @@ This is a solution to the [Base Apparel coming soon page challenge on Frontend M
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
 - [Author](#author)
 
 ## Overview
@@ -28,12 +26,14 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./screenshots/mobile.png)
+
+![](./screenshots/desktop.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/base-apparel-coming-soon-page--q7l0Quco](https://www.frontendmentor.io/solutions/base-apparel-coming-soon-page--q7l0Quco)
+- Live Site URL: [https://dharmik48.github.io/base-apparel-coming-soon-fem/](https://dharmik48.github.io/base-apparel-coming-soon-fem/)
 
 ## My process
 
@@ -44,28 +44,6 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-
-### What I learned
-
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-### Continued development
-
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
 
 ## Author
 
